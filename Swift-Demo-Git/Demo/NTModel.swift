@@ -13,4 +13,12 @@ class NTModel: NSObject {
         super.init()
         self.setValuesForKeysWithDictionary(dict);
     }
+    
+    func sayHi()->Void
+    {
+        print("No Parames!");
+    }
+    func sayHi(aPara:String)->Void{
+        
+    }
 }
